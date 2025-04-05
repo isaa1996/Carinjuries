@@ -37,4 +37,4 @@ Multi-output Classification: The task was framed as a multi-output classificatio
 3. Model Evaluation
 Train/Test Split: The data was split into 80% training and 20% test sets.
 Performance Metrics: Model performance was evaluated using accuracy, precision, recall, F1-score, and confusion matrices.
-Cross-Validation: Cross-validation was performed to assess the generalizability of the model.
+
