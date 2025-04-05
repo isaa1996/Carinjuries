@@ -17,24 +17,32 @@ Primary Factor: The primary factor responsible for the accident
 Reported Location: The location of the accident
 Latitude: Latitude of the accident
 Longitude: Longitude of the accident
+
 Objective
 
 The primary objective of this project is to predict the injury type of a car crash accident (whether it is Fatal, Incapacitating, or Non-incapacitating).
 
 The specific goals are:
 Preprocessing the Data: Handle missing values, encode categorical variables, and scale numerical features.
+
 Model Development: Use machine learning classification algorithms such as Logistic Regression to predict injury types.
+
 Evaluation: Assess the performance of the model using various evaluation metrics such as accuracy, precision, recall, and F1-score.
 Steps Taken
 
-1. Data Preprocessing
+Data Preprocessing
+   
 Missing Data Handling: Removed or imputed missing data in the dataset.
 Encoding Categorical Variables: Applied one-hot encoding to categorical columns like Weekend?, Collision Type, and Injury Type.
 Feature Scaling: Scaled the numerical features (such as Latitude, Longitude, and Hour) using Min-Max scaling to ensure consistency.
-2. Model Building
+
+Model Building
+
 Model Selection: Logistic Regression was chosen as the primary model for classification.
 Multi-output Classification: The task was framed as a multi-output classification problem, predicting multiple injury categories (e.g., Fatal, Incapacitating, etc.).
-3. Model Evaluation
+
+Model Evaluation
+
 Train/Test Split: The data was split into 80% training and 20% test sets.
 Performance Metrics: Model performance was evaluated using accuracy, precision, recall, F1-score, and confusion matrices.
 
